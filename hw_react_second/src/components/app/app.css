@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #c0bfbd;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 auto;
+ }
+
+a {
+  text-decoration: none;
+  color: #c0bfbd;
+}
+
+.one {
+      align-items: center;
+    display: flex;
+    flex-direction: column;
+  margin: 0 auto;
+  max-width: 90px;
+  background-color: #242625;
+  padding: 20px 16px 48px 16px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 30px;
+  margin-bottom: 390px;
+}
+
+.list-title,
+.header-content {
+  display: none;
+}
+
+
+.one:hover{
+max-width: 250px;
+align-items: unset;
+
+}
+
+.one:hover > .header > .header-content {
+  display: flex;
+}
+
+.one:hover > .header > .header-img-chevrone-one {
+  display: flex;
+position: absolute;
+top: 10px;
+right: -28px;
+
+}
+
+.one:hover > .header > .header-img-chevrone-two {
+  display: none;
+}
+
+.one:hover > .main > .item {
+  width: 100%;
+}
+.one:hover > .main > .item > a > .list-title {
+  display: flex;
+}
+
+.one:hover > .footer > .footer-div-one div:last-child {
+  display: flex;
+}
+
+.one:hover > .footer > .footer-div-two > .footer-div-two-box-one {
+  display: flex;
+}
+
+
+.one:hover > .footer > .footer-div-two >.footer-div-two-btn>img{
+  background-color: #424444;;
+}
