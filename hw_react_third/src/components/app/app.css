@@ -1,0 +1,98 @@
+body {
+  margin: 0 auto;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: aliceblue;
+}
+
+.btn-add {
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+  text-align: center;
+  color: blue;
+  background-color: yellow;
+  font-weight: bold;
+}
+
+.btn-add:hover {
+  transform: scale(1.1);
+}
+
+.form {
+  display: flex;
+}
+
+.form input {
+  height: 2rem;
+  font-size: 1rem;
+  border: 3px solid rgb(90, 234, 105);
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(68, 65, 65);
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-item {
+  width: 100%;
+}
+
+.form button {
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+  font-weight: bold;
+}
+
+.form button:hover {
+  transform: scale(1.1);
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: all 0.3s;
+}
+
+.product p {
+  width: 40%;
+  height: 2rem;
+  font-size: 1rem;
+  border: 3px solid rgb(90, 234, 105);
+  border-radius: 10px;
+  color: blue;
+  background-color: yellow;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  font-size: 0.8rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.done {
+  text-decoration: line-through;
+}
